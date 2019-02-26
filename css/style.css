@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    text-align: center;
+    background-color: #f2f1ed;
+}
+h1{
+    font-size: 3.5em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color:#007bff;
+}
+h2{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #333;
+}
+p{
+    font-size: 1.5em;
+}
+hr{
+    width: 80px;
+    color:#007bff;
+    margin-left: auto;
+    margin-right: auto; 
+}
+span{
+    color: #007bff;
+}
+a{
+    text-transform: uppercase;
+}
+a:link {
+    text-decoration: none;
+  }
+.btn{
+    color:#333;
+    border: 1px solid#007bff;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: #007bff;
+    color: white;
+}
+section{
+    width: 100%;
+}
+/* HEADER CSS START*/
+.header-container{
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+header div.header-content{
+    height: 80vh;
+}
+header div.header-content h1{
+    margin-bottom: 15px;
+}
+header div.header-content p{
+    margin: 70px;
+}
+ /* HEADER CSS END */
+ /* MENU CSS START */
+nav{
+    background-color: #007bff;
+    position: sticky;
+    top: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+nav ul li a{
+    font-size: 1em;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    color: #007bff;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+ /* MENU CSS END */
+ /* SECTION ABOUT ME CSS START */
+ .about-me .content-about{
+     background-color: white;
+     height: 1000px;
+ }
+.about-me .content-about h2 {
+    /* margin-top: 100px; */
+    padding-top: 50px;
+    margin-bottom: 20px;
+ }
+.about-me .content-about figure {
+    margin: 50px auto 30px auto;
+    width: 400px;
+    height: 400px;
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+    border: 0.1px solid white;
+    border-radius: 50%;
+}
+.about-me .content-about p{
+    margin:55px;
+    font-size:1,5em;
+    color: #333;
+}
+
+ /* SECTION ABOUT ME CSS END */
+ /* SECTION PORTFOLIO CSS START */
+ 
+.portfolio{
+    background-color: #f2f1ed;
+}
+
+.portfolio .container-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    text-align: center;
+}
+.portfolio .container-img .fig {
+    
+    height: 200px;
+    position: relative;
+    margin: 0;
+    flex-basis: 25%;
+}
+.portfolio .container-img .fig img{
+    height: 200px;
+}
+.portfolio .container-img .fig h3{
+    position: absolute;
+    color:white;
+    top:0;
+    width:100%;
+    height: 100%;
+    
+    
+
+
+}
+/* SECTION PORTFOLIO CSS END */
+/* SECTION KONTAKT CSS START*/
+/* SECTION KONTAKT CSS START*/
+/* FOOTER CSS START*/
+/* FOOTER KONTAKT CSS START*/
